@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+    width: 85%;
+    margin: auto;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+  }
+
+  header ul li {
+      display: inline-block;
+      margin-left: 5px;
+  }
+  
+  header ul li a {
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+  }
+
+  .name {
+
+    background-image: url("img/backgroung_image.jpg");
+    background-image: url("img/logo_long.png");
+    display: flex;
+  }
+
+
+.title {
+    position: absolute;
+
+}
+
+
+  /*flex-direction: column;
+  align-items: center;
+  justify-content: center;
