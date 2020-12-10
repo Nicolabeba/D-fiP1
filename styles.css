@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
 body {
+  font-family: 'Roboto', sans-serif;
     background-color: white;
     width: 85%;
     margin: auto;
   }
   
-  header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,24 +21,118 @@ body {
   
   header ul li a {
     color: black;
-    font-style: normal;
+    font-style: ;
     text-decoration: none;
+    font-weight: 400;
   }
 
   .name {
-
     background-image: url("img/backgroung_image.jpg");
-    background-image: url("img/logo_long.png");
+    height: 80vh;
+    margin: auto;
     display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
   }
 
+  .name h1 {
+    color: white;
+    text-align: center;
+  }
 
-.title {
-    position: absolute;
+  .name img {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 220px;
+    height: auto;
+  }
 
-}
+  .name h1 {
+    margin: auto;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 30px;
+    
+    }
 
+  .description {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 40px;
+    
+  }
 
-  /*flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  .cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .cardContainer h3{
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+  }
+
+  .cardContainer .card img{
+  padding-top: 15px;
+   margin: auto;
+   display: block;
+  }
+
+  .cardText {
+    min-width: 30px;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+  }
+
+ .textForm {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  text-align: center;
+ }
+
+ .signature {
+   text-align: center;
+   font-weight: 100;
+ }
+
+ footer {
+   background-color: #5b359d;
+   color: white;
+   margin-bottom: 5px;
+ }
+
+ footer h2 {
+   text-align: center;
+   padding-top: 30px;
+   font-size: 15px;
+ }
+
+ .socialLogo {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   
+ }
+
+ .socialLogo img {
+  color: white;
+  width: 30px;
+  height: auto;
+  margin-left: 40px;
+  margin-right: 40px;
+ }
+
+ .footerMenu{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+ }
+ 
+ .footerMenu .titleF {
+  text-align: left;
+  font-weight: 100;
+ }
