@@ -21,7 +21,6 @@ header {
   
   header ul li a {
     color: black;
-    font-style: ;
     text-decoration: none;
     font-weight: 400;
   }
@@ -128,11 +127,11 @@ header {
 
  .footerMenu{
    display: flex;
-   flex-direction: row;
    justify-content: space-around;
  }
  
- .footerMenu .titleF {
-  text-align: left;
-  font-weight: 100;
+ .adress ul{
+    display: block;
  }
+ 
+
